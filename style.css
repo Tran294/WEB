@@ -1,0 +1,42 @@
+/* Navbar */
+.navbar {
+    background-color: #ffc0cb !important;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    height: 80px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: red;
+}
+
+/* Carousel */
+.carousel-inner img {
+    height: 450px;
+    object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 60px;
+    }
+
+    .carousel-inner img {
+        height: 300px;
+    }
+}
+/* Banner */
+.banner {
+    height: 100%;
+}
